@@ -1,0 +1,29 @@
+\documentclass{beamer}
+\usetheme[pageofpages=/,% page count. Use "/" or "of"
+          bullet=square, % Use "circle" or "square" 
+          titleline=true,% line below the frame title.
+          alternativetitlepage=true,% Use the fancy title page.
+          titlepagelogo=gesar-logo,% Logo for the first page.
+          watermark=gesar-watermark,% Watermark used in every page.
+          watermarkheight=100px,% Height of the watermark.
+          watermarkheightmult=4,% The watermark image is 4 times bigger
+                                % than watermarkheight.
+          ]{Torino}
+
+% To disable/enable watermark
+%\watermarkoff
+% begin{frame}
+% end{frame}
+%\watermarkon
+
+\author{Your name, Ph.D. user\texttt{@}uerj.br}
+\title{Your title}
+\institute{Group of Environmental Studies in Water Reservoirs \\ \texttt{@}State University of Rio de Janeiro}
+\date{EVENT NAME - City, Month 2015}
+
+\begin{document}
+\include{titleout} % titlepage and outline
+\include{intro} % file to include
+% ...
+\end{document}
+
